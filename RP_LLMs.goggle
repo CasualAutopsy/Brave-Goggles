@@ -1,8 +1,62 @@
 ! name: Role-play LLMs
 ! description: Rerank results to boost open source LLMs designed for RP
-! public: true
+! public: false
 ! author: Equinox Psychosis (Cas)
 ! avatar: #9244e0
 
+$discard
 
+*7b*$boost=2,site=huggingface.co
+*8b*$boost=3,site=huggingface.co
+*9b*$boost=1,site=huggingface.co
+*13b*$boost=2,site=huggingface.co
+*20b*$boost=1,site=huggingface.co
 
+*rp*$boost=3,site=huggingface.co
+*roleplay*$boost=3,site=huggingface.co
+*role-play*$boost=3,site=huggingface.co
+
+*l3*$boost=2,site=huggingface.co
+*l-3*$boost=2,site=huggingface.co
+*llama*$boost=1,site=huggingface.co
+*llama3*$boost=1,site=huggingface.co
+*llama-3*$boost=1,site=huggingface.co
+*mistral*$boost=1,site=huggingface.co
+*mistralv0.2*$boost=1,site=huggingface.co
+*mistral0.2*$boost=1,site=huggingface.co
+*mistral-v0.2*$boost=1,site=huggingface.co
+*mistral-0.2*$boost=1,site=huggingface.co
+*mistralv0.3*$boost=1,site=huggingface.co
+*mistral0.3*$boost=1,site=huggingface.co
+*mistral-v0.3*$boost=1,site=huggingface.co
+*mistral-0.3*$boost=1,site=huggingface.co
+
+*gguf*$boost=2,site=huggingface.co
+*imat*$boost=1,site=huggingface.co
+*iq*$boost=1,site=huggingface.co
+
+! iquants
+/Lewdiculous/$boost=3,site=huggingface.co
+
+! quants
+/TheBloke/$boost=1,site=huggingface.co
+
+! users
+/grimjim/$boost=2,site=huggingface.co
+/icefog72/$boost=2,site=huggingface.co
+/Undi95/$boost=2,site=huggingface.co
+/Nitral-AI/$boost=2,site=huggingface.co
+
+! orgs
+/NeverSleep/$boost=2,site=huggingface.co
+/ChaoticNeutrals/$boost=2,site=huggingface.co
+
+/datasets/$discard,site=huggingface.co
+/spaces/$discard,site=huggingface.co
+/posts/$discard,site=huggingface.co
+/docs/$discard,site=huggingface.co
+
+/tree/$discard
+/blob/$discard
+/resolve/$discard
+/discussions*$discard
