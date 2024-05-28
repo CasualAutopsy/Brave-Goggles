@@ -55,8 +55,10 @@ $discard
 /spaces/$discard,site=huggingface.co
 /posts/$discard,site=huggingface.co
 /docs/$discard,site=huggingface.co
+/models*$discard,site=huggingface.co
 
 /tree/$discard
 /blob/$discard
 /resolve/$discard
+/collections/$discard
 /discussions*$discard
