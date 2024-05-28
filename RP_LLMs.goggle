@@ -16,6 +16,8 @@ $discard
 *roleplay*$boost=3,site=huggingface.co
 *role-play*$boost=3,site=huggingface.co
 
+*l2*$boost=1,site=huggingface.co
+*l-2*$boost=1,site=huggingface.co
 *l3*$boost=2,site=huggingface.co
 *l-3*$boost=2,site=huggingface.co
 *llama*$boost=1,site=huggingface.co
@@ -35,22 +37,6 @@ $discard
 *imat*$boost=1,site=huggingface.co
 *iq*$boost=1,site=huggingface.co
 
-! iquants
-/Lewdiculous/$boost=3,site=huggingface.co
-
-! quants
-/TheBloke/$boost=1,site=huggingface.co
-
-! users
-/grimjim/$boost=2,site=huggingface.co
-/icefog72/$boost=2,site=huggingface.co
-/Undi95/$boost=2,site=huggingface.co
-/Nitral-AI/$boost=2,site=huggingface.co
-
-! orgs
-/NeverSleep/$boost=2,site=huggingface.co
-/ChaoticNeutrals/$boost=2,site=huggingface.co
-
 /datasets/$discard,site=huggingface.co
 /spaces/$discard,site=huggingface.co
 /posts/$discard,site=huggingface.co
@@ -61,9 +47,17 @@ $discard
 /blob/$discard,site=huggingface.co
 /resolve/$discard,site=huggingface.co
 /blame/$discard,site=huggingface.co
+/commit/$discard,site=huggingface.co
 /commits/$discard,site=huggingface.co
 /collections/$discard,site=huggingface.co
 /discussions*$discard,site=huggingface.co
 
 *34b*$discard,site=huggingface.co
 *120b*$discard,site=huggingface.co
+*x7b*$discard,site=huggingface.co
+
+*lora*$discard,site=huggingface.co
+*mixtral*$discard,site=huggingface.co
+
+*gptq*$discard,site=huggingface.co
+*awq*$discard,site=huggingface.co
