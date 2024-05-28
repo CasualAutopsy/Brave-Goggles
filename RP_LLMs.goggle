@@ -61,6 +61,7 @@ $discard
 /blob/$discard,site=huggingface.co
 /resolve/$discard,site=huggingface.co
 /blame/$discard,site=huggingface.co
+/commits/$discard,site=huggingface.co
 /collections/$discard,site=huggingface.co
 /discussions*$discard,site=huggingface.co
 
