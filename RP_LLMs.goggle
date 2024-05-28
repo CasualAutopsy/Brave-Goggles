@@ -57,8 +57,12 @@ $discard
 /docs/$discard,site=huggingface.co
 /models*$discard,site=huggingface.co
 
-/tree/$discard
-/blob/$discard
-/resolve/$discard
-/collections/$discard
-/discussions*$discard
+/tree/$discard,site=huggingface.co
+/blob/$discard,site=huggingface.co
+/resolve/$discard,site=huggingface.co
+/blame/$discard,site=huggingface.co
+/collections/$discard,site=huggingface.co
+/discussions*$discard,site=huggingface.co
+
+*34b*$discard,site=huggingface.co
+*120b*$discard,site=huggingface.co
