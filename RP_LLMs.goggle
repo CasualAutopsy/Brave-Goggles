@@ -6,36 +6,36 @@
 
 $discard
 
-*7b*$boost=2,site=huggingface.co
-*8b*$boost=3,site=huggingface.co
-*9b*$boost=1,site=huggingface.co
-*13b*$boost=2,site=huggingface.co
-*20b*$boost=1,site=huggingface.co
+*7b*$intitle,boost=4,site=huggingface.co
+*8b*$intitle,boost=5,site=huggingface.co
+*9b*$intitle,boost=3,site=huggingface.co
+*13b*$intitle,boost=2,site=huggingface.co
+*20b*$intitle,boost=1,site=huggingface.co
 
-*rp*$boost=3,site=huggingface.co
-*roleplay*$boost=3,site=huggingface.co
-*role-play*$boost=3,site=huggingface.co
+*rp*$incontent,boost=5,site=huggingface.co
+*roleplay*$incontent,boost=5,site=huggingface.co
+*role-play*$incontent,boost=5,site=huggingface.co
 
-*l2*$boost=1,site=huggingface.co
-*l-2*$boost=1,site=huggingface.co
-*l3*$boost=2,site=huggingface.co
-*l-3*$boost=2,site=huggingface.co
-*llama*$boost=1,site=huggingface.co
-*llama3*$boost=1,site=huggingface.co
-*llama-3*$boost=1,site=huggingface.co
-*mistral*$boost=1,site=huggingface.co
-*mistralv0.2*$boost=1,site=huggingface.co
-*mistral0.2*$boost=1,site=huggingface.co
-*mistral-v0.2*$boost=1,site=huggingface.co
-*mistral-0.2*$boost=1,site=huggingface.co
-*mistralv0.3*$boost=1,site=huggingface.co
-*mistral0.3*$boost=1,site=huggingface.co
-*mistral-v0.3*$boost=1,site=huggingface.co
-*mistral-0.3*$boost=1,site=huggingface.co
+*l2*$intitle,boost=1,site=huggingface.co
+*l-2*$intitle,boost=1,site=huggingface.co
+*l3*$intitle,boost=2,site=huggingface.co
+*l-3*$intitle,boost=2,site=huggingface.co
+*llama*$intitle,boost=1,site=huggingface.co
+*llama3*$intitle,boost=1,site=huggingface.co
+*llama-3*$intitle,boost=1,site=huggingface.co
+*mistral*$intitle,boost=1,site=huggingface.co
+*mistralv0.2*$intitle,boost=1,site=huggingface.co
+*mistral0.2*$intitle,boost=1,site=huggingface.co
+*mistral-v0.2*intitle,$boost=1,site=huggingface.co
+*mistral-0.2*$intitle,boost=1,site=huggingface.co
+*mistralv0.3*$intitle,boost=1,site=huggingface.co
+*mistral0.3*$intitle,boost=1,site=huggingface.co
+*mistral-v0.3*$intitle,boost=1,site=huggingface.co
+*mistral-0.3*$intitle,boost=1,site=huggingface.co
 
-*gguf*$boost=2,site=huggingface.co
-*imat*$boost=1,site=huggingface.co
-*iq*$boost=1,site=huggingface.co
+*gguf*$intitle,boost=2,site=huggingface.co
+*imat*$intitle,boost=1,site=huggingface.co
+*iq*$intitle,boost=1,site=huggingface.co
 
 /datasets/$discard,site=huggingface.co
 /spaces/$discard,site=huggingface.co
