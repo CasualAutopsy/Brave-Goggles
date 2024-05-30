@@ -6,7 +6,7 @@
 
 $discard
 
-*7b*$boost=4,site=huggingface.co
+*7b*$boost=4,incontent.site=huggingface.co
 *8b*$boost=5,site=huggingface.co
 *9b*$boost=3,site=huggingface.co
 *13b*$boost=2,site=huggingface.co
